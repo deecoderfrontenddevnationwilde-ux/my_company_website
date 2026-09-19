@@ -19,6 +19,7 @@ def create_app(config_class=Config):
     os.makedirs(os.path.join(app.root_path, "instance"), exist_ok=True)
     os.makedirs(os.path.join(app.config["UPLOAD_FOLDER"], "news"), exist_ok=True)
     os.makedirs(os.path.join(app.config["UPLOAD_FOLDER"], "products"), exist_ok=True)
+    os.makedirs(os.path.join(app.config["UPLOAD_FOLDER"], "projects"), exist_ok=True)
 
     db.init_app(app)
     migrate.init_app(app, db)

@@ -11,6 +11,11 @@ Read these files in this order for best understanding:
   - How to view changes on public site
   - Keyboard shortcuts and tips
   - Troubleshooting
+- `PYTHONANYWHERE_DEPLOYMENT.md` - Deployment guide for PythonAnywhere
+  - Virtual environment and WSGI configuration
+  - First database migration and admin creation
+  - Migration workflow after future model changes
+  - Static files and uploaded images
 
 ### 2. **Implementation Details**
 - `PROJECT_COMPLETION_SUMMARY.md` - Project completion overview
